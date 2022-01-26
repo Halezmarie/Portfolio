@@ -41,11 +41,11 @@ const Projects = () => {
                     distance="30px"
                   >
                     <div className="project-wrapper__text">
-                      <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
+                      <h3 className="project-wrapper__text-title">{title || 'Pups R Us 🐕'}</h3>
                       <div>
                         <p>
                           {info ||
-                            'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                            'Pups R Us is an app for reviewing toys for your favorite pups! Users can submit reviews for existing toys, or add new toys to the website.'}
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
@@ -53,7 +53,7 @@ const Projects = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="cta-btn cta-btn--hero"
-                        href={url || '#!'}
+                        href={url || 'https://www.youtube.com/watch?v=kGQkVHi1O_U'}
                       >
                         See Live
                       </a>
@@ -63,7 +63,7 @@ const Projects = () => {
                           target="_blank"
                           rel="noopener noreferrer"
                           className="cta-btn text-color-main"
-                          href={repo}
+                          href={repo || 'https://github.com/Halezmarie/pupsrus-frontend'}
                         >
                           Source Code
                         </a>

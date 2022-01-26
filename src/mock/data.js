@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://docs.google.com/document/d/e/2PACX-1vT_BFLne4muZN_KPKXdN5w5mKnptVIfFUgQwueTSXuohR8zlvFgnKege-JaUQ9TSqayn-5KZkKDjuup/pub', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -29,29 +29,29 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
+    title: 'Pups R Us 🐕',
+    info: 'Pups R Us is an app for reviewing toys for your favorite pups! Users can submit reviews for existing toys, or add new toys to the website.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://www.youtube.com/watch?v=kGQkVHi1O_U',
+    repo: 'https://github.com/Halezmarie/pupsrus-frontend', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'project2.png',
+    title: 'Boogle👻',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://www.youtube.com/watch?v=enG8KTtPc50',
+    repo: 'https://github.com/Halezmarie/Boogle', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'project3.png',
+    title: 'TeaScape 🍵',
+    info: 'TeaScape is for anyone who loves tea. Users can create, delete, edit, and review tea. Users can also see the reviews of other users.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://www.youtube.com/watch?v=ygHHl_Nc8ks',
+    repo: 'https://github.com/Halezmarie/TeaScape-Project', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +59,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'haleymgrassi@gmail.com',
 };
 
 // FOOTER DATA
@@ -67,23 +67,23 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      name: 'youtube',
+      url: 'https://www.youtube.com/channel/UC9jObIjQp5WJw_cJLYFWQzw',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/haley-grassi0716/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/Halezmarie',
+    },
+    {
+      id: nanoid(),
+      name: 'medium',
+      url: 'https://medium.com/@haleymgrassi',
     },
   ],
 };
