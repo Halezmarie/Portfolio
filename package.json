@@ -12,7 +12,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy" : "npm run build&&gh-pages -d build"
   },
   "dependencies": {
     "bootstrap": "^4.5.0",
@@ -72,6 +72,7 @@
     "*.+(json|css|md)": [
       "prettier --write",
       "git add"
-    ]
+    ], 
+    "homepage": "https://<halezmarie>.github.io/https://github.com/Halezmarie/halezmarie.github.io"
   }
 }
