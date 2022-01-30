@@ -39,7 +39,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project2.png',
     title: 'Boogle👻',
-    info: '',
+    info: 'Boogle is for everyone who loves scary movies. Users can view, create, and delete movies, as well as add movies to the current list.',
     info2: '',
     url: 'https://www.youtube.com/watch?v=enG8KTtPc50',
     repo: 'https://github.com/Halezmarie/Boogle', // if no repo, the button will not show up
