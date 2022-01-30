@@ -55,17 +55,17 @@ const Projects = () => {
                         className="cta-btn cta-btn--hero"
                         href={url || 'https://www.youtube.com/watch?v=kGQkVHi1O_U'}
                       >
-                        See Live
+                      See Live
+                      
                       </a>
-
                       {repo && (
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="cta-btn text-color-main"
+                          className="cta-btn cta-btn--hero"
                           href={repo || 'https://github.com/Halezmarie/pupsrus-frontend'}
                         >
-                          Source Code
+                      Source Code
                         </a>
                       )}
                     </div>
